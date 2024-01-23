@@ -6,7 +6,7 @@ const rlc = require("remark-link-card");
 const config = {
   title: "Github Copilot Guide",
   tagline: "",
-  url: "https://hdomi.github.io",
+  url: "https://vscode-copilot-guide.netlify.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
