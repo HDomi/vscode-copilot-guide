@@ -97,6 +97,9 @@ const config = {
       //   copyright: `Copyright © ${new Date().getFullYear()} Built with JAEYOUNG.`,
       // },
       prism: {
+        colorMode: {
+          defaultMode: "dark",
+        },
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         additionalLanguages: ["ruby", "groovy", "java", "kotlin"],
