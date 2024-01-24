@@ -957,3 +957,12 @@ img {
     width: 120px;
   }
 }
+.img-wrapper {
+  width: 100%;
+  padding: 10px;
+  img {
+    display: flex;
+    align-self: center;
+    max-height: 350px;
+  }
+}
