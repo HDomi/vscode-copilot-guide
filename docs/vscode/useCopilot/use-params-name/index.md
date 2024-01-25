@@ -7,11 +7,13 @@ hide_table_of_contents: true
 ---
 
 1. 메소드명을 작성(ex. 현재시간에서 2시간 뒤를 return하는 메소드)
-
-<img src={require('@site/static/img/use-params-name/params1.png').default} />
-<img src={require('@site/static/img/use-params-name/params2.png').default} />
+<div className="img-wrapper">
+   <img src={require('@site/static/img/use-params-name/params1.png').default} />
+   <img src={require('@site/static/img/use-params-name/params2.png').default} />
+</div>
 
 2. tab을 눌러 적용
-
-<img src={require('@site/static/img/use-params-name/params3.png').default} />
-<img src={require('@site/static/img/use-params-name/params4.png').default} />
+<div className="img-wrapper">
+    <img src={require('@site/static/img/use-params-name/params3.png').default} />
+    <img src={require('@site/static/img/use-params-name/params4.png').default} />
+ </div>
