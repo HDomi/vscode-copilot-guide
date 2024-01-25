@@ -35,6 +35,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "dark",
+      },
       navbar: {
         title: "Github Copilot",
         // logo: {
@@ -97,10 +100,7 @@ const config = {
       //   copyright: `Copyright © ${new Date().getFullYear()} Built with JAEYOUNG.`,
       // },
       prism: {
-        colorMode: {
-          defaultMode: "dark",
-        },
-        theme: lightCodeTheme,
+        theme: darkCodeTheme,
         darkTheme: darkCodeTheme,
         additionalLanguages: ["ruby", "groovy", "java", "kotlin"],
       },
