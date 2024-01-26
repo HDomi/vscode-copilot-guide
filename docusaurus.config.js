@@ -38,6 +38,9 @@ const config = {
       colorMode: {
         defaultMode: "dark",
       },
+      customCodeBlock: {
+        imagePreview: true,
+      },
       navbar: {
         title: "Github Copilot",
         // logo: {
@@ -112,6 +115,15 @@ const config = {
           scrollOffset: 0,
         },
       },
+      zoom: {
+        selector: ".markdown :not(em) > img",
+        config: {
+          background: {
+            light: "rgb(255, 255, 255, 0.6)",
+            dark: "rgb(0,0,0,0.6)",
+          },
+        },
+      },
     }),
   plugins: [
     [
@@ -122,7 +134,7 @@ const config = {
       },
     ],
     "docusaurus-plugin-sass",
-    "plugin-image-zoom",
+    "docusaurus-plugin-image-zoom",
   ],
 };
 
