@@ -27,7 +27,6 @@ hide_title: true
   GitHub Copilot은 OpenAI에서 만든 생성적 사전 학습 언어 모델인
   [OpenAI Codex](https://openai.com/blog/openai-codex)를 기반으로 한다.
 - Copilot은 VS Code, Visual Studio, JetBrains IDE, Neovim을 포함한 다양한 코드 편집기와 함께 작동합니다.
-- **최신정보의 웹 크롤링이 가능**하고, **기존에 작성하던 데이터를 활용**가능
 
 Github Copilot의 가장 큰 장점은 현재 사용자가 작성하고 있는 프로젝트 코드들을 파악하여, 사용자의 코드 스타일, 컨벤션등을 참고로 코드를 추천해준다는 점이다.
 Copilot을 통해 작성된 일관된 코드는 협업에 있어서도, 추후 유지보수 측면에 있어서도 긍정적인 측면으로 다가온다.
